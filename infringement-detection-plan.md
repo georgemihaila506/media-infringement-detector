@@ -148,12 +148,12 @@ Two workflow types run on the engine.
 async def ingest_original(ctx, original_id, kind):
     meta = await ctx.activity(probe, original_id)
     if kind == "photo":
-        await ctx.activity(fingerprint_photo, original_id)          # pHash + ORB features -> S3
+        await ctx.activity(fingerprint_photo, original_id)  # pHash + ORB features -> S3
     else:
-        segments = plan_segments(meta.duration, seconds=60)          # deterministic, pure
+        segments = plan_segments(meta.duration, seconds=60)  # deterministic, pure
         await ctx.gather(*[ctx.activity(hash_segment, original_id, s) for s in segments])
         await ctx.activity(fingerprint_audio, original_id)
-    await ctx.activity(index_original, original_id)                 # rows into pgvector
+    await ctx.activity(index_original, original_id)  # rows into pgvector
 ```
 
 ### 5.2 `scan_suspect`
@@ -183,7 +183,7 @@ flowchart TD
 ```python
 @workflow
 async def scan_suspect(ctx, scan_id, kind):
-    fp = await ctx.activity(fingerprint_suspect, scan_id, kind)     # returns S3 key, not data
+    fp = await ctx.activity(fingerprint_suspect, scan_id, kind)  # returns S3 key, not data
     candidates = await ctx.activity(find_candidates, scan_id, fp)
     if not candidates:
         return await ctx.activity(set_verdict, scan_id, "clear")

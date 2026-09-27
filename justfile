@@ -32,8 +32,12 @@ fmt:
     uv run ruff format .
     uv run ruff check --fix .
 
+# Cut catalog originals and negatives from the raw films (eval/clips.csv)
+clips:
+    uv run python -m eval.clips
+
 # Regenerate the labeled attack dataset, deterministically
-dataset:
+dataset: clips
     uv run python -m eval.attacks
 
 # Run the evaluation harness and write results to eval/results/

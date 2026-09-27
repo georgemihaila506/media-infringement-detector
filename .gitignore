@@ -10,3 +10,4 @@ infra/.terraform/
 *.tfstate
 *.tfstate.*
 *.tfvars
+.DS_Store
