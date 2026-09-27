@@ -1,0 +1,1 @@
+"""Media infringement detector."""

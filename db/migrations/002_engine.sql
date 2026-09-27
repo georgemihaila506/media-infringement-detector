@@ -1,0 +1,2 @@
+-- Engine schema: workflows, history (unique (workflow_id, seq)), tasks, timers.
+-- Designed in weeks 8-10 (plan section 9).

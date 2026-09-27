@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+eval/data/
+loadtest/reports/*.html
+infra/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
