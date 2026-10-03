@@ -22,7 +22,7 @@ Time estimates assume 6–8 hours a week. They are guides, not deadlines; if a m
 | # | Milestone | Weeks | Status |
 |---|---|---|---|
 | 0 | Setup | – | ✅ Done |
-| 1 | Evaluation dataset | 1 | 🟡 Video done; photos left |
+| 1 | Evaluation dataset | 1 | ✅ Done |
 | 2 | First video matcher and the harness | 2–3 | ⬜ |
 | 3 | Photo matching | 4 | ⬜ |
 | 4 | Audio fingerprinting | 5 | ⬜ |
@@ -47,7 +47,7 @@ Repo layout under `src/infringement`, local stack (Postgres + pgvector, SeaweedF
 
 ---
 
-## 1. Evaluation dataset (week 1) 🟡
+## 1. Evaluation dataset (week 1) ✅
 
 **Why first:** without labelled data, you can't tell whether any algorithm works. Every later number comes from this dataset.
 
@@ -55,9 +55,9 @@ Repo layout under `src/infringement`, local stack (Postgres + pgvector, SeaweedF
 - [x] `eval/clips.py`: cut and verify clips (you wrote `ffmpeg_cmd` and `verify`)
 - [x] `eval/attacks.py`: 17 seeded video attacks and the manifest
 - [x] Run `just dataset`: 612 variants, all checked for length and streams
-- [ ] Spot-check a few variants per attack by eye
-- [ ] Photos: a few dozen in `eval/data/raw/photos/`, with originals, near-duplicate negatives and a split
-- [ ] Photo attacks: the video ones that apply, plus rotation and collage
+- [x] Spot-check a few variants per attack by eye
+- [x] Photos: `eval/photos.csv` (30 originals, 20 negatives, 12 near-duplicate groups) from Lorem Picsum, downloaded by `eval/photos.py`
+- [x] `eval/photo_attacks.py`: 13 photo attacks and the photo manifest (650 variants)
 
 **Concepts:** ffmpeg filter graphs; ground truth and labels; train/test splits and why they go by original; hard negatives; deterministic randomness (one seeded generator per clip and attack).
 

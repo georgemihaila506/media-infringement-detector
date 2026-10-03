@@ -1,0 +1,51 @@
+photo_id,picsum_id,role,split,group,author,note
+photo_1025,1025,original,train,pug,Matthew Wiebe,pug wrapped in a blanket outdoors
+photo_1062,1062,negative,train,pug,Matthew Wiebe,same pug and blanket on a bed
+photo_818,818,original,test,liberty,Anthony DELANOIX,Statue of Liberty in colour
+photo_742,742,negative,test,liberty,Anthony DELANOIX,Statue of Liberty in black and white
+photo_972,972,original,train,lookup,Matthew Wiebe,looking up between skyscrapers
+photo_1048,1048,negative,train,lookup,Anthony DELANOIX,same composition by another photographer
+photo_677,677,negative,train,lookup,davide ragusa,same composition by a third photographer
+photo_9,9,original,train,laptop,Alejandro Escamilla,laptop on a wooden desk from above
+photo_8,8,negative,train,laptop,Alejandro Escamilla,same desk and laptop from another angle
+photo_1,1,original,test,typing,Alejandro Escamilla,hands typing on a laptop
+photo_5,5,negative,test,typing,Alejandro Escamilla,same scene from another angle
+photo_434,434,original,train,pier,Ales Krivec,wooden pier into a mountain lake
+photo_1051,1051,negative,train,pier,Ales Krivec,another wooden pier into a lake
+photo_441,441,original,train,london,David Marcu,crowded London street at sunset
+photo_690,690,negative,train,london,David Marcu,London street with a red bus
+photo_490,490,original,test,flatlay,Todd Quackenbush,kitchen tools on dark wood from above
+photo_491,491,negative,test,flatlay,Todd Quackenbush,workshop tools on dark wood from above
+photo_17,17,original,train,path,Paul Jarvis,path through a meadow
+photo_216,216,negative,train,path,Paul Jarvis,path through a forest
+photo_256,256,original,train,peaks,Sylwia Bartyzel,snowy mountain peaks
+photo_260,260,negative,train,peaks,Sylwia Bartyzel,snowy peaks behind pine trees
+photo_12,12,original,test,rocks,Paul Jarvis,rocky shore and calm sea
+photo_14,14,negative,test,rocks,Paul Jarvis,another rocky shore
+photo_439,439,original,train,skyline,Matthew Wiebe,hazy city skyline
+photo_496,496,negative,train,skyline,davide ragusa,city skyline at dusk
+photo_506,506,original,train,,Jeff Sheldon,mist over a canyon
+photo_508,508,original,train,,Jeff Sheldon,repeating white church arches
+photo_509,509,original,test,,Jeff Sheldon,waterfall
+photo_512,512,original,train,,Jeff Sheldon,steaming blue lagoon
+photo_514,514,original,train,,Jeff Sheldon,off-road car in front of a house
+photo_515,515,original,test,,Jeff Sheldon,plane wreck on a black beach
+photo_528,528,original,train,,Jeff Sheldon,desk with printed text
+photo_531,531,original,train,,Jeff Sheldon,vintage cameras
+photo_535,535,original,train,,Jeff Sheldon,clothes on hangers
+photo_21,21,original,train,,Alejandro Escamilla,white shoes on a red floor
+photo_22,22,original,train,,Alejandro Escamilla,man crossing an empty road
+photo_80,80,original,test,,Sonja Langford,pine cones in black and white
+photo_155,155,original,train,,Christopher Sardegna,railway along a coast
+photo_550,550,original,train,,Christopher Sardegna,silhouette against a hazy sunset
+photo_620,620,original,train,,Matthew Wiebe,bridge arch in black and white
+photo_781,781,original,test,,Matthew Wiebe,dark subway platform
+photo_947,947,original,test,,Anthony DELANOIX,white house with a blue sky
+photo_336,336,original,train,,Sylwia Bartyzel,love locks on a fence
+photo_313,313,negative,train,,Sonja Langford,low detail: foggy flat landscape
+photo_989,989,negative,test,,Paul Jarvis,low detail: fog over water
+photo_954,954,negative,train,,Todd Quackenbush,low detail: mostly white wall
+photo_357,357,negative,test,,Sonja Langford,unrelated: alarm clock close-up
+photo_312,312,negative,test,,Sonja Langford,unrelated: honey dipper in a cup
+photo_23,23,negative,test,,Alejandro Escamilla,unrelated: forks on dark background
+photo_24,24,negative,train,,Alejandro Escamilla,unrelated: open book

@@ -36,9 +36,14 @@ fmt:
 clips:
     uv run python -m eval.clips
 
+# Download catalog photos and negatives from Lorem Picsum (eval/photos.csv)
+photos:
+    uv run python -m eval.photos
+
 # Regenerate the labeled attack dataset, deterministically
-dataset: clips
+dataset: clips photos
     uv run python -m eval.attacks
+    uv run python -m eval.photo_attacks
 
 # Run the evaluation harness and write results to eval/results/
 eval:
