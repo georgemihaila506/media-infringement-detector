@@ -1,6 +1,6 @@
 # Media infringement detector
 
-Detects republished photos and videos from a rights catalog. The design and the 14-week plan are in [infringement-detection-plan.md](infringement-detection-plan.md).
+Detects republished photos and videos from a rights catalog. The design and the 14-week plan are in [infringement-detection-plan.md](infringement-detection-plan.md). What to build next, and what each step teaches, is in [ROADMAP.md](ROADMAP.md).
 
 ## Layout
 
